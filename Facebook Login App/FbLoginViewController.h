@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
 
-@interface ViewController : UIViewController
+@interface FbLoginViewController : UIViewController<FBSDKLoginButtonDelegate>
 
+@property (weak, nonatomic) IBOutlet FBSDKLoginButton *loginButton;
+
+- (IBAction)btnContWithFbClicked:(id)sender;
+
+-(void)getFacebookProfileInfos;
 
 @end
 

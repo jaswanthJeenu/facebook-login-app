@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		F20A4A3B1D068C8C00BCC203 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F20A4A3A1D068C8C00BCC203 /* main.m */; };
 		F20A4A3E1D068C8C00BCC203 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F20A4A3D1D068C8C00BCC203 /* AppDelegate.m */; };
-		F20A4A411D068C8C00BCC203 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20A4A401D068C8C00BCC203 /* ViewController.m */; };
+		F20A4A411D068C8C00BCC203 /* FbLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20A4A401D068C8C00BCC203 /* FbLoginViewController.m */; };
 		F20A4A441D068C8C00BCC203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20A4A421D068C8C00BCC203 /* Main.storyboard */; };
 		F20A4A461D068C8C00BCC203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20A4A451D068C8C00BCC203 /* Assets.xcassets */; };
 		F20A4A491D068C8C00BCC203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20A4A471D068C8C00BCC203 /* LaunchScreen.storyboard */; };
+		F20A4A601D069AB900BCC203 /* button@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F20A4A5D1D069AB900BCC203 /* button@1x.png */; };
+		F20A4A611D069AB900BCC203 /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F20A4A5E1D069AB900BCC203 /* button@2x.png */; };
+		F20A4A621D069AB900BCC203 /* button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F20A4A5F1D069AB900BCC203 /* button@3x.png */; };
+		F20A4A661D06AE3000BCC203 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20A4A631D06AE3000BCC203 /* FBSDKCoreKit.framework */; };
+		F20A4A671D06AE3000BCC203 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20A4A641D06AE3000BCC203 /* FBSDKLoginKit.framework */; };
+		F20A4A681D06AE3000BCC203 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20A4A651D06AE3000BCC203 /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,18 @@
 		F20A4A3A1D068C8C00BCC203 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F20A4A3C1D068C8C00BCC203 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F20A4A3D1D068C8C00BCC203 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F20A4A3F1D068C8C00BCC203 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F20A4A401D068C8C00BCC203 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F20A4A3F1D068C8C00BCC203 /* FbLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FbLoginViewController.h; sourceTree = "<group>"; };
+		F20A4A401D068C8C00BCC203 /* FbLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FbLoginViewController.m; sourceTree = "<group>"; };
 		F20A4A431D068C8C00BCC203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F20A4A451D068C8C00BCC203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F20A4A481D068C8C00BCC203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F20A4A4A1D068C8C00BCC203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20A4A5D1D069AB900BCC203 /* button@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@1x.png"; sourceTree = "<group>"; };
+		F20A4A5E1D069AB900BCC203 /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
+		F20A4A5F1D069AB900BCC203 /* button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@3x.png"; sourceTree = "<group>"; };
+		F20A4A631D06AE3000BCC203 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "Facebook Login App/FacebookSDKs-iOS-4.12.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		F20A4A641D06AE3000BCC203 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "Facebook Login App/FacebookSDKs-iOS-4.12.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		F20A4A651D06AE3000BCC203 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "Facebook Login App/FacebookSDKs-iOS-4.12.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20A4A671D06AE3000BCC203 /* FBSDKLoginKit.framework in Frameworks */,
+				F20A4A661D06AE3000BCC203 /* FBSDKCoreKit.framework in Frameworks */,
+				F20A4A681D06AE3000BCC203 /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,7 @@
 		F20A4A2D1D068C8C00BCC203 = {
 			isa = PBXGroup;
 			children = (
+				F20A4A501D06905100BCC203 /* Frameworks */,
 				F20A4A381D068C8C00BCC203 /* Facebook Login App */,
 				F20A4A371D068C8C00BCC203 /* Products */,
 			);
@@ -60,8 +76,8 @@
 			children = (
 				F20A4A3C1D068C8C00BCC203 /* AppDelegate.h */,
 				F20A4A3D1D068C8C00BCC203 /* AppDelegate.m */,
-				F20A4A3F1D068C8C00BCC203 /* ViewController.h */,
-				F20A4A401D068C8C00BCC203 /* ViewController.m */,
+				F20A4A3F1D068C8C00BCC203 /* FbLoginViewController.h */,
+				F20A4A401D068C8C00BCC203 /* FbLoginViewController.m */,
 				F20A4A421D068C8C00BCC203 /* Main.storyboard */,
 				F20A4A451D068C8C00BCC203 /* Assets.xcassets */,
 				F20A4A471D068C8C00BCC203 /* LaunchScreen.storyboard */,
@@ -74,9 +90,22 @@
 		F20A4A391D068C8C00BCC203 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F20A4A5D1D069AB900BCC203 /* button@1x.png */,
+				F20A4A5E1D069AB900BCC203 /* button@2x.png */,
+				F20A4A5F1D069AB900BCC203 /* button@3x.png */,
 				F20A4A3A1D068C8C00BCC203 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F20A4A501D06905100BCC203 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F20A4A631D06AE3000BCC203 /* FBSDKCoreKit.framework */,
+				F20A4A641D06AE3000BCC203 /* FBSDKLoginKit.framework */,
+				F20A4A651D06AE3000BCC203 /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F20A4A491D068C8C00BCC203 /* LaunchScreen.storyboard in Resources */,
+				F20A4A621D069AB900BCC203 /* button@3x.png in Resources */,
+				F20A4A601D069AB900BCC203 /* button@1x.png in Resources */,
+				F20A4A611D069AB900BCC203 /* button@2x.png in Resources */,
 				F20A4A461D068C8C00BCC203 /* Assets.xcassets in Resources */,
 				F20A4A441D068C8C00BCC203 /* Main.storyboard in Resources */,
 			);
@@ -149,7 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F20A4A411D068C8C00BCC203 /* ViewController.m in Sources */,
+				F20A4A411D068C8C00BCC203 /* FbLoginViewController.m in Sources */,
 				F20A4A3E1D068C8C00BCC203 /* AppDelegate.m in Sources */,
 				F20A4A3B1D068C8C00BCC203 /* main.m in Sources */,
 			);
@@ -263,6 +295,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Facebook",
+					Login,
+					"App/FacebookSDKs-iOS-4.12.0",
+					"$(PROJECT_DIR)/Facebook",
+					Login,
+					"App/FacebookSDKs-iOS-4.12.0",
+					"$(PROJECT_DIR)/Facebook",
+					Login,
+					"App/FacebookSDKs-iOS-4.12.0",
+				);
 				INFOPLIST_FILE = "Facebook Login App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "in.fbloginapp.Facebook-Login-App";
@@ -274,6 +318,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Facebook",
+					Login,
+					"App/FacebookSDKs-iOS-4.12.0",
+					"$(PROJECT_DIR)/Facebook",
+					Login,
+					"App/FacebookSDKs-iOS-4.12.0",
+					"$(PROJECT_DIR)/Facebook",
+					Login,
+					"App/FacebookSDKs-iOS-4.12.0",
+				);
 				INFOPLIST_FILE = "Facebook Login App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "in.fbloginapp.Facebook-Login-App";
@@ -300,6 +356,7 @@
 				F20A4A4F1D068C8C00BCC203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
